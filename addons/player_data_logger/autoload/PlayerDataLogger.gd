@@ -206,7 +206,7 @@ func _find_clicked_object() -> String:
 	if not current_scene:
 		return "null"
 
-	var world_2d := current_scene.get_world_2d()
+	var world_2d = current_scene.get_world_2d()
 	if not world_2d:
 		return "null"
 
@@ -215,7 +215,7 @@ func _find_clicked_object() -> String:
 	params.collide_with_areas = true
 	params.collide_with_bodies = true
 
-	var results := world_2d.direct_space_state.intersect_point(params)
+	var results = world_2d.direct_space_state.intersect_point(params)
 
 	for result in results:
 		var collider = result.collider
