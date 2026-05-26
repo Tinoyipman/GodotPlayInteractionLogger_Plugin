@@ -1,4 +1,4 @@
-# Player Interaction Logger
+# Player Interaction Logger for Godot 4
 
 Records player interactions (clicks, drags, key presses) to a local CSV file and optionally syncs each row live to a Google Sheet via a Google Apps Script endpoint.
 
