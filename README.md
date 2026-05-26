@@ -28,10 +28,10 @@ Interaction types logged automatically:
 
 ## Installation
 
-1. Copy `PlayerDataLogger.gd` into your project (e.g. `res://autoloads/PlayerDataLogger.gd`).
-2. Add it as an **Autoload** via **Project → Project Settings → Autoloads**:
-   - **Path:** `res://autoloads/PlayerDataLogger.gd`
-   - **Name:** `PlayerDataLogger`
+1. Copy the `addons/player_data_logger/` folder into your project's `addons/` directory.  
+   If `addons/` doesn't exist yet, create it at the root of your project (next to `project.godot`).
+2. Open **Project → Project Settings → Plugins** and enable **Player Data Logger**.  
+   This automatically registers `PlayerDataLogger` as a global autoload — no manual Autoload setup needed.
 3. Enable logging at runtime when you're ready to start recording (see below).
 
 ---
